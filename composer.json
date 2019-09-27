@@ -20,7 +20,7 @@
     ],
     "require": {
         "php": ">=7.0.13",
-        "league/url": "^5.3"
+        "league/uri": "^5.3"
     },
     "require-dev": {
         "phpspec/phpspec": "^2.2",
