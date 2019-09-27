@@ -3,8 +3,8 @@
 namespace Patieru\UrlSigner;
 
 use DateTime;
-use League\Url\Components\QueryInterface;
-use League\Url\UrlImmutable;
+use League\Uri\Components\QueryInterface;
+use League\Uri\UrlImmutable;
 use Patieru\UrlSigner\Exceptions\InvalidExpiration;
 use Patieru\UrlSigner\Exceptions\InvalidSignatureKey;
 
