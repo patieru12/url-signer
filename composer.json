@@ -1,0 +1,40 @@
+{
+    "name": "patieru/url-signer",
+    "description": "Generate a url with an expiration date and signature to prevent unauthorized access",
+    "keywords": [
+        "patieru",
+        "security",
+        "encryption",
+        "sign",
+        "url"
+    ],
+    "homepage": "https://github.com/patieru12/url-signer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ruberandinda Patience",
+            "email": "info@schooloak.com",
+            "homepage": "https://github.com/patieru12",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.13",
+        "league/url": "^5.3"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^2.2",
+        "henrikbjorn/phpspec-code-coverage": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Patieru\\UrlSigner\\": "src"
+        }
+    },
+    "scripts": {
+        "test": "phpspec run"
+    },
+    "extra": {
+        
+    }
+}
